@@ -22,7 +22,7 @@ function startAd(){
     var ctl = new TimelineLite();
     ctl.from("#bradFooter", .4, {opacity:0,ease: Power3.easeOut})
     .from("#bradFooterCTA", .8, { opacity:0,ease: Power3.easeOut}, .7)
-       .from("#bradFooterCTAT", .4, {opacity:0, ease: Power3.easeOut},"-=.8")
+       //.from("#bradFooterCTAT", .4, {opacity:0, ease: Power3.easeOut},"-=.8")
         .from("#bradFooterImageContainer", .8, {opacity:0,ease: Power3.easeOut}, "-=.8" );
     
     tl.add(stl, 0);

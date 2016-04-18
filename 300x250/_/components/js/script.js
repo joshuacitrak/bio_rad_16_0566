@@ -24,7 +24,7 @@ function startAd(){
     ctl.from("#bradFooter", .4, {opacity:0,ease: Power3.easeOut})
         .from("#bradFooterImageContainer", .8, {opacity:0,ease: Power3.easeOut}, .6)
         .from("#bradFooterCTA", .8, { opacity:0,ease: Power3.easeOut}, "-=.8")
-       .from("#bradFooterCTAT", .4, {opacity:0, ease: Power3.easeOut}, "-=1");
+       //.from("#bradFooterCTAT", .4, {opacity:0, ease: Power3.easeOut}, "-=1");
     
     tl.add(stl, 0);
     tl.add(bgtl, 3.6);
